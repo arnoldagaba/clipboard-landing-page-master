@@ -56,11 +56,13 @@ li {
 
 .btn {
     border-radius: 30px;
-    padding: 10px 20px;
+    padding: 1rem 1.5rem;
     color: white;
     font-size: 15px;
-    outline: none;
+    font-weight: 600;
     display: inline-flex;
+    cursor: pointer;
+    border: none;
 }
 
 .btn.ios {
@@ -75,8 +77,26 @@ li {
 .snippets {
     width: 100%;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
 }
 
+.snippets .snippets-split {
+    display: flex;
+    align-items: center;
+}
+
+.snippets .s-paragraph {
+    margin: 0 15rem;
+    text-align: center;
+}
+
+.snippets .snippets-split img {
+    margin-left: -4rem;
+}
 
 /* Access Section */
 
@@ -102,9 +122,7 @@ li {
 }
 
 .footer .list {
-    display: grid;
-    grid-template-columns: 150px 150px 150px;
-    grid-template-rows: 50px 50px;
+
 }
 
 
